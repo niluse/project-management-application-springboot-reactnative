@@ -6,7 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
-    "start": "react-native start",
+    "start": "react-native start --port=8082",
     "test": "jest"
   },
   "dependencies": {
@@ -24,6 +24,8 @@
     "react-native-reanimated": "^3.5.4",
     "react-native-safe-area-context": "^4.7.4",
     "react-native-screens": "^3.27.0",
+    "react-native-svg": "^15.11.2",
+    "react-native-svg-transformer": "^1.5.0",
     "react-native-vector-icons": "^10.0.1"
   },
   "devDependencies": {
@@ -46,4 +48,4 @@
   "engines": {
     "node": ">=16"
   }
-} 
+}
